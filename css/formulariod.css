@@ -1,0 +1,79 @@
+
+body,html{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;	
+}
+
+body{
+	background-color: darkseagreen;
+}
+h2{
+	text-align:center !important;
+	margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+#menu{
+	position: fixed;
+    top: 0;
+    background-color: aliceblue;
+    border-radius: 7px;
+    /* float: left; */
+    width: 70vw;
+    margin-left: 15vw;
+}
+#lista_menu{
+    text-align: center;
+    list-style-type: none;
+    margin: 2vw;
+    padding: 0vw;
+}
+#lista_menu li{
+	display: inline-block;
+    border-radius: 7px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 0 1vw 0 1vw;
+    border: 2px blue solid;
+}
+#menu p{
+	border: 2px blue solid;
+    border-radius: 7px;
+	padding-right: 1vw;
+    padding-left: 1vw;
+    width: max-content;
+    display: inline-block;
+	margin-left: 33vw;
+}
+
+#titulo{
+	margin-top: 15vh;
+	text-align: center;
+	color: blue;
+}
+.preguntas{
+	background-color: royalblue;
+    margin: 4vh 10%;
+    width: 80%;
+    border: 2px solid blue;
+    border-radius: 40px;
+    padding: 2vh 0 2vh 0;
+	
+}
+.test{
+	text-align:left !important;
+	margin-left:25%;
+}
+#centro{
+    width: 70vw;
+    margin-left: 14vw;
+    text-align: center;
+    border: 8px double;
+}
+#contendor{}
+.inputSel{
+	font-size: 2vw;
+    width: 50%;
+    text-align: center;
+}
