@@ -1,31 +1,34 @@
+<!-- Cabecera para indicar que es XML-->
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntes>
- <pregunta id='profe001'>
-  <tipus>text</tipus>
+
+
+<questions>
+ <question id='profe001'>
+  <type>text</type>
   <text>Extensió d'un fitxer full d'estill</text>
-  <resposta>css</resposta>
- </pregunta>
- <pregunta id='profe002'>
-  <tipus>text</tipus>
+  <answer>css</answer>
+ </question>
+ <question id='profe002'>
+  <type>text</type>
   <text>Quin és nom de l'element arrel d'un document html?</text>
-  <resposta>html</resposta>
- </pregunta>
- <pregunta id='profe003'>
-  <tipus>select</tipus>
+  <answer>html</answer>
+ </question>
+ <question id='profe003'>
+  <type>select</type>
   <text>Un lleó mort de fam, qué menja?</text>
-  <opcio>Carn</opcio>
-  <opcio>Peix</opcio> 
-  <opcio>Res, està mort</opcio>
-  <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
- </pregunta>
- <pregunta id='profe004'>
-  <tipus>multiple</tipus>
+  <option>Carn</option>
+  <option>Peix</option> 
+  <option>Res, està mort</option>
+  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ <question id='profe004'>
+  <type>multiple</type>
   <text>Marca els nombres senars?</text>
-  <opcio>1</opcio>
-  <opcio>2</opcio> 
-  <opcio>3</opcio> 
-  <opcio>4</opcio>
-  <resposta>1</resposta>
-  <resposta>3</resposta>
- </pregunta>
-</preguntes>
+  <option>1</option>
+  <option>2</option> 
+  <option>3</option> 
+  <option>4</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+</questions>
