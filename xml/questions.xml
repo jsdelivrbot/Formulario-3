@@ -1,31 +1,102 @@
+<!-- Cabecera para indicar que es XML-->
 <?xml version="1.0" encoding="UTF-8"?>
-<preguntes>
- <pregunta id='profe001'>
-  <tipus>text</tipus>
-  <text>Extensió d'un fitxer full d'estill</text>
-  <resposta>css</resposta>
- </pregunta>
- <pregunta id='profe002'>
-  <tipus>text</tipus>
-  <text>Quin és nom de l'element arrel d'un document html?</text>
-  <resposta>html</resposta>
- </pregunta>
- <pregunta id='profe003'>
-  <tipus>select</tipus>
-  <text>Un lleó mort de fam, qué menja?</text>
-  <opcio>Carn</opcio>
-  <opcio>Peix</opcio> 
-  <opcio>Res, està mort</opcio>
-  <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
- </pregunta>
- <pregunta id='profe004'>
-  <tipus>multiple</tipus>
-  <text>Marca els nombres senars?</text>
-  <opcio>1</opcio>
-  <opcio>2</opcio> 
-  <opcio>3</opcio> 
-  <opcio>4</opcio>
-  <resposta>1</resposta>
-  <resposta>3</resposta>
- </pregunta>
-</preguntes>
+
+
+<questions>
+
+ <question id='profe001'>
+	<type>text</type>
+	<title>¿Que elemento del motor carga la batería?</title>
+	<answer>alternador</answer>
+ </question>
+ 
+ <question id='profe002'>
+	<type>text</type>
+	<title>¿Que elemento es el encargado de transmitir "frio" dentro del habitáculo?</title>
+	<answer>evaporador</answer>
+ </question>
+ 
+ <question id='profe003'>
+	<type>select</type>
+	<title>¿Que modo de funcionamiento de motor instala Toyota en sus coches hibridos?</title>
+	<option>En paraleleo</option>
+	<option>Serie</option> 
+	<option>Serie - Paralelo</option>
+	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id='profe004'>
+	<type>select</type>
+	<title>¿Cual fué el primero método de impulsión de un vehículo?</title>
+	<option>Diesel</option>
+	<option>Electricidad</option> 
+	<option>Gasolina</option>
+	<answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id='profe005'>
+	<type>multiple</type>
+	<title>¿Que elementos pertenecen al sistema de gases de escape de un coche?</title>
+	<option>Filtro de Anti-Particulas (FAP)</option>
+	<option>Filtro de Aceite</option> 
+	<option>Catalizador</option> 
+	<option>Filtro de Combustible</option>
+	<answer>0</answer>
+	<answer>2</answer>
+ </question>
+ 
+ <question id='profe006'>
+	<type>multiple</type>
+	<title>A lo largo de la historia,¿Que elementos se han utilizado para recargar la batería del coche?</title>
+	<option>Dinamo</option>
+	<option>Alternador</option> 
+	<option>Alternador con gestión de carga</option> 
+	<option>Compresor</option>
+	<answer>0</answer>
+	<answer>1</answer>
+	<answer>2</answer>
+ </question>
+ 
+<question id='profe007'>
+	<type>checkbox</type>
+	<title>¿Cuales de los siguientes son sistemas de gasolina usados un coches?</title>
+	<option>Carburación</option>
+	<option>Inyección indirecta</option> 
+	<option>GLP</option> 
+	<option>Inyección de agua</option>
+	<answer>0</answer>
+	<answer>1</answer>
+ </question>
+ 
+ <question id='profe008'>
+	<type>checkbox</type>
+	<title>¿Cuales son elementos del sistema de Aire Acondicionado?</title>
+	<option>Evaporador</option>
+	<option>Compresor</option> 
+	<option>Bujías</option> 
+	<option>Condensador</option>
+	<answer>0</answer>
+	<answer>1</answer>
+	<answer>3</answer>
+ </question>
+ 
+  <question id='profe009'>
+	<type>radio</type>
+	<title>En un coche actual(>2012)¿Que sistema utiliza más sensores y actuadores?</title>
+	<option>Sistema de Motor</option>
+	<option>Sistema de Gases de Escape</option> 
+	<option>Sistema de Climatizador</option>
+	<option>Sistema Eléctrico</option>
+	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+ <question id='profe010'>
+	<type>radio</type>
+	<title>Un lleó mort de fam, qué menja?</title>
+	<option>Carn</option>
+	<option>Peix</option> 
+	<option>Res, està mort</option>
+	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ 
+</questions>
