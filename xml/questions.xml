@@ -4,19 +4,19 @@
 
 <questions>
 
- <question id='profe001'>
+ <question class='pregunta'>
 	<type>text</type>
 	<title>¿Que elemento del motor carga la batería?</title>
 	<answer>alternador</answer>
  </question>
  
- <question id='profe002'>
+ <question class='pregunta'>
 	<type>text</type>
 	<title>¿Que elemento es el encargado de transmitir "frio" dentro del habitáculo?</title>
 	<answer>evaporador</answer>
  </question>
  
- <question id='profe003'>
+ <question class='pregunta'>
 	<type>select</type>
 	<title>¿Que modo de funcionamiento de motor instala Toyota en sus coches hibridos?</title>
 	<option>En paraleleo</option>
@@ -25,7 +25,7 @@
 	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
  
- <question id='profe004'>
+ <question class='pregunta'>
 	<type>select</type>
 	<title>¿Cual fué el primero método de impulsión de un vehículo?</title>
 	<option>Diesel</option>
@@ -34,7 +34,7 @@
 	<answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
  
- <question id='profe005'>
+ <question class='pregunta'>
 	<type>multiple</type>
 	<title>¿Que elementos pertenecen al sistema de gases de escape de un coche?</title>
 	<option>Filtro de Anti-Particulas (FAP)</option>
@@ -45,7 +45,7 @@
 	<answer>2</answer>
  </question>
  
- <question id='profe006'>
+ <question class='pregunta'>
 	<type>multiple</type>
 	<title>A lo largo de la historia,¿Que elementos se han utilizado para recargar la batería del coche?</title>
 	<option>Dinamo</option>
@@ -57,7 +57,7 @@
 	<answer>2</answer>
  </question>
  
-<question id='profe007'>
+<question class='pregunta'>
 	<type>checkbox</type>
 	<title>¿Cuales de los siguientes son sistemas de gasolina usados un coches?</title>
 	<option>Carburación</option>
@@ -68,7 +68,7 @@
 	<answer>1</answer>
  </question>
  
- <question id='profe008'>
+ <question class='pregunta'>
 	<type>checkbox</type>
 	<title>¿Cuales son elementos del sistema de Aire Acondicionado?</title>
 	<option>Evaporador</option>
@@ -80,7 +80,7 @@
 	<answer>3</answer>
  </question>
  
-  <question id='profe009'>
+  <question class='pregunta'>
 	<type>radio</type>
 	<title>En un coche actual(>2012)¿Que sistema utiliza más sensores y actuadores?</title>
 	<option>Sistema de Motor</option>
@@ -90,7 +90,7 @@
 	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
  
- <question id='profe010'>
+ <question class='pregunta'>
 	<type>radio</type>
 	<title>¿Por que carril debes circular siempre que puedas?</title>
 	<option>Derecho</option>
