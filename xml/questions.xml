@@ -92,11 +92,11 @@
  
  <question id='profe010'>
 	<type>radio</type>
-	<title>Un lleó mort de fam, qué menja?</title>
-	<option>Carn</option>
-	<option>Peix</option> 
-	<option>Res, està mort</option>
-	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	<title>¿Por que carril debes circular siempre que puedas?</title>
+	<option>Derecho</option>
+	<option>Central</option> 
+	<option>Arcen</option>
+	<answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
  </question>
  
 </questions>
