@@ -7,19 +7,19 @@
 
 <questions>
 
- <question class='pregunta'>
+ <question>
 	<type>text</type>
 	<title>¿Que elemento del motor carga la batería?</title>
 	<answer>alternador</answer>
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>text</type>
 	<title>¿Que elemento es el encargado de transmitir "frio" dentro del habitáculo?</title>
 	<answer>evaporador</answer>
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>select</type>
 	<title>¿Que modo de funcionamiento de motor instala Toyota en sus coches hibridos?</title>
 	<option>En paraleleo</option>
@@ -28,7 +28,7 @@
 	<answer>2</answer> 
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>select</type>
 	<title>¿Cual fué el primero método de impulsión de un vehículo?</title>
 	<option>Diesel</option>
@@ -37,7 +37,7 @@
 	<answer>1</answer> 
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>multiple</type>
 	<title>¿Que elementos pertenecen al sistema de gases de escape de un coche?</title>
 	<option>Filtro de Anti-Particulas (FAP)</option>
@@ -48,7 +48,7 @@
 	<answer>2</answer>
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>multiple</type>
 	<title>A lo largo de la historia,¿Que elementos se han utilizado para recargar la batería del coche?</title>
 	<option>Dinamo</option>
@@ -60,7 +60,7 @@
 	<answer>2</answer>
  </question>
  
-<question class='pregunta'>
+<question>
 	<type>checkbox</type>
 	<title>¿Cuales de los siguientes son sistemas de gasolina usados un coches?</title>
 	<option>Carburación</option>
@@ -71,7 +71,7 @@
 	<answer>1</answer>
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>checkbox</type>
 	<title>¿Cuales son elementos del sistema de Aire Acondicionado?</title>
 	<option>Evaporador</option>
@@ -83,7 +83,7 @@
 	<answer>3</answer>
  </question>
  
-  <question class='pregunta'>
+  <question>
 	<type>radio</type>
 	<title>En un coche actual(>2012)¿Que sistema utiliza más sensores y actuadores?</title>
 	<option>Sistema de Motor</option>
@@ -93,7 +93,7 @@
 	<answer>2</answer> 
  </question>
  
- <question class='pregunta'>
+ <question>
 	<type>radio</type>
 	<title>¿Por que carril debes circular siempre que puedas?</title>
 	<option>Derecho</option>
