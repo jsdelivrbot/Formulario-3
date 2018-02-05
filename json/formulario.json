@@ -1,0 +1,131 @@
+
+
+
+
+
+
+{
+  "questions": {
+    "question": [
+      {
+        "-class": "pregunta",
+        "type": "text",
+        "title": "¿Que elemento del motor carga la batería?",
+        "answer": "alternador"
+      },
+      {
+        "-class": "pregunta",
+        "type": "text",
+        "title": "¿Que elemento es el encargado de transmitir \"frio\" dentro del habitáculo?",
+        "answer": "evaporador"
+      },
+      {
+        "-class": "pregunta",
+        "type": "select",
+        "title": "¿Que modo de funcionamiento de motor instala Toyota en sus coches hibridos?",
+        "option": [
+          "En paraleleo",
+          "Serie",
+          "Serie - Paralelo"
+        ],
+        "answer": "2"
+      },
+      {
+        "-class": "pregunta",
+        "type": "select",
+        "title": "¿Cual fué el primero método de impulsión de un vehículo?",
+        "option": [
+          "Diesel",
+          "Electricidad",
+          "Gasolina"
+        ],
+        "answer": "1"
+      },
+      {
+        "-class": "pregunta",
+        "type": "multiple",
+        "title": "¿Que elementos pertenecen al sistema de gases de escape de un coche?",
+        "option": [
+          "Filtro de Anti-Particulas (FAP)",
+          "Filtro de Aceite",
+          "Catalizador",
+          "Filtro de Combustible"
+        ],
+        "answer": [
+          "0",
+          "2"
+        ]
+      },
+      {
+        "-class": "pregunta",
+        "type": "multiple",
+        "title": "A lo largo de la historia,¿Que elementos se han utilizado para recargar la batería del coche?",
+        "option": [
+          "Dinamo",
+          "Alternador",
+          "Alternador con gestión de carga",
+          "Compresor"
+        ],
+        "answer": [
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "-class": "pregunta",
+        "type": "checkbox",
+        "title": "¿Cuales de los siguientes son sistemas de gasolina usados un coches?",
+        "option": [
+          "Carburación",
+          "Inyección indirecta",
+          "GLP",
+          "Inyección de agua"
+        ],
+        "answer": [
+          "0",
+          "1"
+        ]
+      },
+      {
+        "-class": "pregunta",
+        "type": "checkbox",
+        "title": "¿Cuales son elementos del sistema de Aire Acondicionado?",
+        "option": [
+          "Evaporador",
+          "Compresor",
+          "Bujías",
+          "Condensador"
+        ],
+        "answer": [
+          "0",
+          "1",
+          "3"
+        ]
+      },
+      {
+        "-class": "pregunta",
+        "type": "radio",
+        "title": "En un coche actual(>2012)¿Que sistema utiliza más sensores y actuadores?",
+        "option": [
+          "Sistema de Motor",
+          "Sistema de Gases de Escape",
+          "Sistema de Climatizador",
+          "Sistema Eléctrico"
+        ],
+        "answer": "2"
+      },
+      {
+        "-class": "pregunta",
+        "type": "radio",
+        "title": "¿Por que carril debes circular siempre que puedas?",
+        "option": [
+          "Derecho",
+          "Central",
+          "Arcen"
+        ],
+        "answer": "0"
+      }
+    ]
+  }
+}

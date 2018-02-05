@@ -25,7 +25,7 @@
 	<option>En paraleleo</option>
 	<option>Serie</option> 
 	<option>Serie - Paralelo</option>
-	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	<answer>2</answer> 
  </question>
  
  <question class='pregunta'>
@@ -34,7 +34,7 @@
 	<option>Diesel</option>
 	<option>Electricidad</option> 
 	<option>Gasolina</option>
-	<answer>1</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	<answer>1</answer> 
  </question>
  
  <question class='pregunta'>
@@ -90,7 +90,7 @@
 	<option>Sistema de Gases de Escape</option> 
 	<option>Sistema de Climatizador</option>
 	<option>Sistema Eléctrico</option>
-	<answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	<answer>2</answer> 
  </question>
  
  <question class='pregunta'>
@@ -99,7 +99,7 @@
 	<option>Derecho</option>
 	<option>Central</option> 
 	<option>Arcen</option>
-	<answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+	<answer>0</answer> 
  </question>
  
 </questions>
