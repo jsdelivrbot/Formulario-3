@@ -2,7 +2,7 @@
 
 
 
-
+var respuestasCorrectas =[];
 // fichero json que está en el servidor rawgit
 var url="https://cdn.rawgit.com/davidgm17/Formulario/81a0e08f/json/formulario.json";
 
@@ -24,16 +24,20 @@ function gestionarJson(dadesJson){
 	
 	/*pregunta1 texto*/
 	document.getElementById("p1").innerHTML = object.question[0].title;
+	respuestasCorrectas[0]=object.question[0].answer;
 	/*document.getElementById("t1").innerHTML = object.question[0].type;
 	document.getElementById("r1").innerHTML = object.question[0].answer;*/
 	
+	
 	/*pregunta2 texto*/
 	document.getElementById("p2").innerHTML = object.question[1].title;
+	respuestasCorrectas[1]=object.question[1].answer;
 	/*document.getElementById("t3").innerHTML = object.question[1].type;
 	document.getElementById("r3").innerHTML = object.question[1].answer;*/
 	
 	/*pregunta 3 select*/
 	document.getElementById("p3").innerHTML = object.question[2].title;
+	respuestasCorrectas[2]=object.question[2].answer;
 	/*document.getElementById("t2").innerHTML = object.question[2].type;
 	document.getElementById("r2").innerHTML = object.question[2].answer;*/
 	
@@ -49,6 +53,7 @@ function gestionarJson(dadesJson){
 	
 	/*pregunta 4 select*/
 	document.getElementById("p4").innerHTML = object.question[3].title;
+	respuestasCorrectas[3]=object.question[3].answer;
 	/*document.getElementById("t2").innerHTML = object.question[2].type;
 	document.getElementById("r4").innerHTML = object.question[3].answer;*/
 	
@@ -63,6 +68,7 @@ function gestionarJson(dadesJson){
 	}
 	/*pregunta 5 multiple*/
 	document.getElementById("p5").innerHTML = object.question[4].title;
+	respuestasCorrectas[4]=object.question[4].answer;
 	/*document.getElementById("t2").innerHTML = object.question[2].type;
 	document.getElementById("r5").innerHTML = object.question[4].answer;*/
 	
@@ -77,6 +83,7 @@ function gestionarJson(dadesJson){
 	}
 	/*pregunta 6 multiple*/
 	document.getElementById("p6").innerHTML = object.question[5].title;
+	respuestasCorrectas[5]=object.question[5].answer;
 	/*document.getElementById("t2").innerHTML = object.question[2].type;
 	document.getElementById("r6").innerHTML = object.question[5].answer;*/
 	
@@ -92,8 +99,9 @@ function gestionarJson(dadesJson){
 	
 	/*pregunta 7 checkbox*/
 	document.getElementById("p7").innerHTML = object.question[6].title;
-	/*document.getElementById("t2").innerHTML = object.question[2].type;*/
-	document.getElementById("r7").innerHTML = object.question[6].answer;
+	respuestasCorrectas[6]=object.question[6].answer;
+	/*document.getElementById("t2").innerHTML = object.question[2].type;
+	document.getElementById("r7").innerHTML = object.question[6].answer;*/
 	
 	
 	var numOpciones=object.question[6].option.length;
@@ -101,11 +109,11 @@ function gestionarJson(dadesJson){
 	for (var j = 0;j<numOpciones;j++){
 		var input = document.createElement("input");
 		var label =document.createElement("label");
-		label.innerHTML = object.question[6].option[j];
-		label.setAttribute("for","r"+j);
+		label.innerHTML = " "+object.question[6].option[j];
+		label.setAttribute("for","r7."+j);
 		input.type ="checkbox";
 		input.name="respuesta7";
-		input.id="r"+j;
+		input.id="r7."+j;
 		cajacontenedor.appendChild(input);
 		cajacontenedor.appendChild(label);
 		 cajacontenedor.appendChild(document.createElement("br"));
@@ -113,8 +121,9 @@ function gestionarJson(dadesJson){
 	
 	/*pregunta 8 checkbox*/
 	document.getElementById("p8").innerHTML = object.question[7].title;
-	/*document.getElementById("t2").innerHTML = object.question[2].type;*/
-	document.getElementById("r8").innerHTML = object.question[7].answer;
+	respuestasCorrectas[7]=object.question[7].answer;
+	/*document.getElementById("t2").innerHTML = object.question[2].type;
+	document.getElementById("r8").innerHTML = object.question[7].answer;*/
 	
 	
 	var numOpciones=object.question[7].option.length;
@@ -122,7 +131,7 @@ function gestionarJson(dadesJson){
 	for (var j = 0;j<numOpciones;j++){
 		var input = document.createElement("input");
 		var label =document.createElement("label");
-		label.innerHTML = object.question[7].option[j];
+		label.innerHTML = " "+object.question[7].option[j];
 		label.setAttribute("for","r8."+j);
 		input.type ="checkbox";
 		input.name="respuesta8";
@@ -134,8 +143,9 @@ function gestionarJson(dadesJson){
 	
 	/*pregunta 9 radio*/
 	document.getElementById("p9").innerHTML = object.question[8].title;
-	/*document.getElementById("t2").innerHTML = object.question[2].type;*/
-	document.getElementById("r9").innerHTML = object.question[8].answer;
+	respuestasCorrectas[8]=object.question[8].answer;
+	/*document.getElementById("t2").innerHTML = object.question[2].type;
+	document.getElementById("r9").innerHTML = object.question[8].answer;*/
 	
 	
 	var numOpciones=object.question[8].option.length;
@@ -143,7 +153,7 @@ function gestionarJson(dadesJson){
 	for (var j = 0;j<numOpciones;j++){
 		var input = document.createElement("input");
 		var label =document.createElement("label");
-		label.innerHTML = object.question[8].option[j];
+		label.innerHTML = " "+object.question[8].option[j];
 		label.setAttribute("for","r9."+j);
 		input.type ="radio";
 		input.name="respuesta9";
@@ -154,8 +164,9 @@ function gestionarJson(dadesJson){
 	}
 	/*pregunta 10 radio*/
 	document.getElementById("p10").innerHTML = object.question[9].title;
-	/*document.getElementById("t2").innerHTML = object.question[2].type;*/
-	document.getElementById("r10").innerHTML = object.question[9].answer;
+	respuestasCorrectas[9]=object.question[9].answer;
+	/*document.getElementById("t2").innerHTML = object.question[2].type;
+	document.getElementById("r10").innerHTML = object.question[9].answer;*/
 	
 	
 	var numOpciones=object.question[9].option.length;
@@ -163,7 +174,7 @@ function gestionarJson(dadesJson){
 	for (var j = 0;j<numOpciones;j++){
 		var input = document.createElement("input");
 		var label =document.createElement("label");
-		label.innerHTML = object.question[9].option[j];
+		label.innerHTML = " "+object.question[9].option[j];
 		label.setAttribute("for","r100."+j);
 		input.type ="radio";
 		input.name="respuesta10";
@@ -172,7 +183,14 @@ function gestionarJson(dadesJson){
 		cajacontenedor1.appendChild(label);
 		 cajacontenedor1.appendChild(document.createElement("br"));
 	}
-	
+	/*Funcion para comprobar como se almacenan los datos en la lista para poder corregir.
+	var cajaresultado=document.getElementById("titulo");
+	for (var i=0;i<respuestasCorrectas.length;i++){
+		var p =document.createElement("p");
+		p.innerHTML=respuestasCorrectas[i];
+		cajaresultado.appendChild(p);
+		
+	}*/
 	}
 	/*funciona*/
 	
