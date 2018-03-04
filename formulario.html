@@ -7,18 +7,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="descripción" content="">
 		<!--<link rel="stylesheet" href="css/font-awesome.css">-->
-		<link rel="stylesheet" type="text/css" media='screen and (min-width:226px)' href="css/formulariod.css" /> 
-		<!--<link rel="stylesheet" type="text/css" media='screen and (max-width:425px)' href="css/lunarm.css" /> -->
+		<link rel="stylesheet" type="text/css" media='screen and (min-width:426px)' href="css/formulariod.css" /> 
+		<link rel="stylesheet" type="text/css" media='screen and (max-width:425px)' href="css/movil.css" /> 
 		<script  src="js\formulario.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,700=shadow-multiple" rel="stylesheet">
 	</head>
 	<body>
 		<div id="menu">
 			<ul id="lista_menu">
-				<li>Info</li>
-				<li>Corregir</li>
-				<li>Nuevo examen</li>
-				<li>Tiempo restante</li>
+				<li><a href="instrucciones.html" title="Informacion EXAMEN" alt="Informacion EXAMEN">Información</a></li>
+				<li id="corregir">Corregir</li>
+				<li><a href="formulario.html" title="nuevo EXAMEN" alt="nuevo EXAMEN">Nuevo examen</a></li>
+				<!--<li>Tiempo restante</li>-->
 			</ul>
 		</div>
 		<div id="titulo">
@@ -26,6 +26,7 @@
 		</div>
 		<div id="contenedor">
 			<div id="centro">
+			<form id='form1'>
 				<div class="preguntas">
 					<h2 id='p1'></h2>
 					<input type='text' class="inputSel">
@@ -39,43 +40,43 @@
 				<div class="preguntas">
 					<h2  id='p3'>Confundo los numeros con los colores </h2>
 					<select  class="inputSel">
-					<option value="-1" selected='selected'>Seleccione una respuesta</option>
+					<option value="0" selected='selected'>Seleccione una respuesta</option>
 					</select>
 				</div>
 				
 				<div class="preguntas">
 					<h2 id='p4'></h2>
 					<select  class="inputSel">
-					<option value="-1" selected='selected'>Seleccione una respuesta</option>
+					<option value="0" selected='selected'>Seleccione una respuesta</option>
 					</select>
 				</div>
 				
 				<div class="preguntas">
 					<h2 id='p5'></h2>
-					<select  multiple class="inputSel">
-					<option value="-1" >Seleccione una respuesta</option>
+					<select  multiple class="inputSel" >
+					<option value="0" selected='selected'>Seleccione una respuesta</option>
 					</select>
 				</div>
 				
 				<div class="preguntas">
 					<h2 id='p6'></h2>
-					<select  multiple class="inputSel">
-					<option value="-1" >Seleccione una respuesta</option>
+					<select  multiple class="inputSel" >
+					<option value="0" selected='selected'>Seleccione una respuesta</option>
 					</select>
 				</div>
 				
 				<div class="preguntas">
 					<h2 id='p7'></h2>
-					<div   class="checkbox">
-						<input type="checkbox" id="r70" name="respuesta7" value="-1" >
+					<div   class="checkbox" id ="CK1">			
+						<input type="checkbox" id="r70" name="respuesta7" value="0" >
 						<label for="r70">Seleccione una respuesta</label><br/>
 					</div>
 				</div>
 				
 				<div  class="preguntas" >
 					<h2 id='p8'></h2>
-					<div   class="checkbox" >
-						<input type="checkbox" id="r80" name="respuesta8" value="-1" >
+					<div   class="checkbox"  id ="CK2">
+						<input type="checkbox" id="r80" name="respuesta8" value="0" >
 						<label for="r80">Seleccione una respuesta</label><br/>
 					</div>
 				</div>
@@ -83,7 +84,7 @@
 				<div class="preguntas">
 					<h2 id='p9'></h2>
 					<div   class="radio">
-						<input id="r90" type="radio" name="respuesta9" value="-1" >
+						<input id="r90" type="radio" name="respuesta9" value="0" >
 						<label for="r90">Seleccione una respuesta</label><br>
 						
 					</div>
@@ -92,11 +93,16 @@
 				<div class="preguntas">
 					<h2 id='p10'></h2>
 					<div   class="radio">
-						<input id="r100" type="radio" name="respuesta10" value="-1" >
+						<input id="r100" type="radio" name="respuesta10" value="0" >
 						<label for="r100">Seleccione una respuesta</label><br>
 						
 					</div>
 				</div>
+				<div id="imagen1">
+				</div>
+				<div class="preguntas" id='resultadosDiv'>
+				</div>
+				</form>
 			</div>
 		</div>
 	</body>

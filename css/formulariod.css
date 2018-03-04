@@ -21,7 +21,7 @@ h1{
 	font-family: supercell-magicregular;
 	font-size: 5vw;
 	text-shadow: -2px 0 #7ec928, 0 0px #197, 0px 0 #197, 0 -2px #7ec928;
-	    margin-bottom: 0vw;
+	margin-bottom: 0vw;
 }
 h2{
 	text-align:center !important;
@@ -40,12 +40,18 @@ option{
     font-size: 1.5vw;
 	position: fixed;
     top: 0;
-    background-color: #197;
+    /*background-color: #197;*/
+	background: url(../img/cars.jpg);
     border-radius: 7px;
     /* float: left; */
     width: 74vw;
     margin-left: 12vw;
 	border: 8px double;
+	
+}
+#menu a,#lista_menu li a{
+	text-decoration:none;
+	color: black;
 }
 #lista_menu{
     text-align: center;
@@ -109,4 +115,15 @@ option{
 	padding : 5vw 0 5vw 5vw;
 	font-size: 3vw;
 	font-family: 'Roboto Mono', monospace;
+}
+
+#imagen1{
+	    background: url(../img/escarabajo.png);
+    width: 16vw;
+    height: 7vw;
+    background-size: cover;
+    text-align: center;
+    margin: 0vw 0 1vw 27vw;
+    padding: 2vw;
+	
 }
