@@ -30,6 +30,9 @@ h2{
 	font-family: 'Roboto Mono', monospace;
 	font-size: 3vw;
 }
+h3{
+	font-size: 2vw;
+}
 option{
 	text-align:left;
 	font-family: 'Roboto Mono', monospace;
@@ -67,6 +70,10 @@ option{
     margin: 0 1vw 0 1vw;
     border: 4px blue solid;
 	background-color: #3681d7;
+}
+#lista_menu li:hover:not(#lista_menu){
+	background-color: #C97E28;
+    border-color: black;
 }
 #menu p{
 	border: 2px blue solid;
@@ -126,4 +133,8 @@ option{
     margin: 0vw 0 1vw 27vw;
     padding: 2vw;
 	
+}
+#resultadosDiv p{
+	font-size: 2vw;
+    margin: 0.5em;
 }

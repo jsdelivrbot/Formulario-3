@@ -69,6 +69,10 @@ option{
     border: 4px blue solid;
 	background-color: #3681d7;
 }
+#lista_menu li:hover:not(#lista_menu){
+	background-color: #C97E28;
+    border-color: black;
+}
 #menu p{
 	border: 2px blue solid;
     border-radius: 7px;
@@ -136,4 +140,15 @@ option{
 #desarrolladorm{
 	display: block;
 	text-align:center;
+}
+#resultadosDiv{
+	font-family: 'Roboto Mono', monospace;
+}
+#resultadosDiv h3{
+	font-weight: bold;
+    font-size: 3vw;
+}
+#resultadosDiv p{
+	font-size: 2vw;
+    margin: 0.5em;
 }
