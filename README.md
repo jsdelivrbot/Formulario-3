@@ -35,7 +35,7 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 	
 	- Una vez terminado el proyecto, y siendo este operativo, se ha realizado una rama "minimificada", donde se ha realizado el proceso de minimificación de cada uno de los archivos html y css. En el caso del documento javascript, después de varias pruebas y problemas de carga con rawgit, se ha dejado indentado pero eliminando la mayor parte de comentarios, con la única finalidad de intentar hacer funcionar el proyecto en su versión minimificada.
 
-##Páginas utilizadas para validar.
+## Páginas utilizadas para validar. ##
 ~~~~
      Validador de html utilizado:
          https://validator.w3.org/#validate_by_input
@@ -66,7 +66,7 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 		2. Para que todos los botones muestren el mismo cursor, ya que algunos son hipervínculos y otros tienen una acción dada desde el javascript, lo que les daba aspectos diferentes.
 	- Al verificar la página "examen.html" salen 10 avisos, de que los campos de titulos de las preguntas están vacios. NO GENERAN ERRORES, solo muestra aviso.
 	
-## Propuesta personal:
+## Propuesta personal: ##
 	- El botón de nuevo examen, de la página "Examen.html" no es un enlace a la misma página.  
 	   Llama a una función que he creado, para vaciar todos los campos del examen, borrar las correcciones y nota.
 	- En la pregunta 10 si te equivocas,seleccionando "Centro" te sale un alert con un mensaje especial.
