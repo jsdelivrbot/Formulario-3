@@ -2,18 +2,17 @@
 
 
 /* variables globales utilizadas*/
-var formElement=null;
-var respuestasCorrectas =[];/* lista con las respuestas descargadas del jason*/
+var formElement = null;
+var respuestasCorrectas = [];/* lista con las respuestas descargadas del jason*/
 var nota = 0;
 
 
 /* ********************************************************************* */
-			/* función principal que controla el programa*/
+            /* función principal que controla el programa*/
 
 /* ***********************************************************************/
-window.onload = function(){
-		
-	//CORREGIR al apretar el botón
+window.onload = function(){	
+    /*CORREGIR al apretar el botón*/
 	formElement=document.getElementById('corregir');
 	formElement.onclick=function(){
 		inicializar();
@@ -34,11 +33,11 @@ window.onload = function(){
 	}
 	/* Función para reestablecer todas las preguntas*/
 	nuevoExamen = document.getElementById('reestablecer');
-	nuevoExamen.onclick=function(){
+	nuevoExamen.onclick = function(){
 		reestablecer();
 	}
 	/* fichero json que está en el servidor rawgit*/
-	var url="https://cdn.rawgit.com/davidgm17/Formulario/81a0e08f/json/formulario.json";
+	var url = "https://cdn.rawgit.com/davidgm17/Formulario/81a0e08f/json/formulario.json";
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
