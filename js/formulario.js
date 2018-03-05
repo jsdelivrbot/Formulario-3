@@ -345,7 +345,7 @@ function presentarNota(){
 function inicializar(){
 	document.getElementById('resultadosDiv').innerHTML = "";/* Vacio el campo de los resultados*/
 	var titulo3 = document.createElement("h3");	/* Añado el titulo h3 que avisa que es la zona con las respuestas al corregir*/
-	var node = document.createTextNode("Resultados de la corrección del examen:");
+	var node = document.createTextNode("Resultados de la correccion del examen:");
 	titulo3.appendChild(node);
 	document.getElementById('resultadosDiv').appendChild(titulo3);
 	nota=0.0;
