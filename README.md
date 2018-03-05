@@ -32,19 +32,20 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 	- Se ha ido desarrollando un README durante la evolución de esta práctica.
 	- El tamaño de la imagen del fondo es : 56 Kb.
 	- En el formato movil, el menú superior y el fondo se adaptan a la anchura total de la pantalla, paratener mejor resolución y aprovechamiento de la pantalla.
-	~~~~
-     ##Páginas utilizadas para validar.##
-          Validador de html utilizado:
-              https://validator.w3.org/#validate_by_input
-          Para comprobar si la sintaxis de javaScript tiene errores, validador js:
-              http://esprima.org/demo/validate.html
-          Validador de css utilizado:
-              https://jigsaw.w3.org/css-validator/#validate_by_input
-          Para reducir el tamaño de las fotos:
-              https://tinypng.com/
-     ~~~~
+	
 	- Una vez terminado el proyecto, y siendo este operativo, se ha realizado una rama "minimificada", donde se ha realizado el proceso de minimificación de cada uno de los archivos html y css. En el caso del documento javascript, después de varias pruebas y problemas de carga con rawgit, se ha dejado indentado pero eliminando la mayor parte de comentarios, con la única finalidad de intentar hacer funcionar el proyecto en su versión minimificada.
 
+##Páginas utilizadas para validar.
+~~~~
+     Validador de html utilizado:
+         https://validator.w3.org/#validate_by_input
+     Para comprobar si la sintaxis de javaScript tiene errores, validador js:
+         http://esprima.org/demo/validate.html
+     Validador de css utilizado:
+         https://jigsaw.w3.org/css-validator/#validate_by_input
+     Para reducir el tamaño de las fotos:
+         https://tinypng.com/
+~~~~
 # Observaciones del proyecto Formulario:
   	- Se ha utilizado la herramienta "GITHUB" para ir evolucionando de forma segura a lo largo del proyecto , creando las ramas necesarias.
 
@@ -65,17 +66,16 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 		2. Para que todos los botones muestren el mismo cursor, ya que algunos son hipervínculos y otros tienen una acción dada desde el javascript, lo que les daba aspectos diferentes.
 	- Al verificar la página "examen.html" salen 10 avisos, de que los campos de titulos de las preguntas están vacios. NO GENERAN ERRORES, solo muestra aviso.
 	
-	## Propuesta personal ##
+## Propuesta personal:
 	- El botón de nuevo examen, de la página "Examen.html" no es un enlace a la misma página.  
 	   Llama a una función que he creado, para vaciar todos los campos del examen, borrar las correcciones y nota.
 	- En la pregunta 10 si te equivocas,seleccionando "Centro" te sale un alert con un mensaje especial.
 
 	
-
+#Resultado final del proyecto 4 de Lenguaje de marcas.
 ~~~~
-#Resultado final del proyecto 4 de Lenguaje de marcas.#
 - versión indentada:
-    https://cdn.rawgit.com/davidgm17/Formulario/63894679/formulario.html
+	https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html
 - versión minimificada:
     https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html
 ~~~~
