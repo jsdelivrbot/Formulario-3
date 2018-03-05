@@ -13,9 +13,9 @@
       },
       {
         "type": "select",
-        "title": "¿Que modo de funcionamiento de motor instala Toyota en sus coches hibridos?",
+        "title": "¿Que modo de funcionamiento de motor instala Toyota en sus coches híbridos?",
         "option": [
-          "En paraleleo",
+          "En paralelo",
           "Serie",
           "Serie - Paralelo"
         ],
@@ -23,19 +23,19 @@
       },
       {
         "type": "select",
-        "title": "¿Cual fué el primero método de impulsión de un vehículo?",
+        "title": "¿Cual fue el primero método de impulsión de un vehículo?",
         "option": [
-          "Diesel",
+          "Diésel",
           "Electricidad",
           "Gasolina"
         ],
         "answer": "1"
       },
       {
-        "type": "multiple",
+        "type": "múltiple",
         "title": "¿Que elementos pertenecen al sistema de gases de escape de un coche?",
         "option": [
-          "Filtro de Anti-Particulas (FAP)",
+          "Filtro de Anti-Partículas (FAP)",
           "Filtro de Aceite",
           "Catalizador",
           "Filtro de Combustible"
@@ -95,7 +95,7 @@
         "option": [
           "Sistema de Motor",
           "Sistema de Gases de Escape",
-          "Sistema de Climatizador",
+          "Sistema de Climatización",
           "Sistema Eléctrico"
         ],
         "answer": "2"
@@ -106,7 +106,7 @@
         "option": [
           "Derecho",
           "Central",
-          "Arcen"
+          "Arcén"
         ],
         "answer": "0"
       }
