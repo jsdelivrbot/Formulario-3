@@ -72,10 +72,10 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 	- En la pregunta 10 si te equivocas,seleccionando "Centro" te sale un alert con un mensaje especial.
 
 	
-#Resultado final del proyecto 4 de Lenguaje de marcas.
+# Resultado final del proyecto 4 de Lenguaje de marcas.
 ~~~~
 - versión indentada:
-	https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html
+	[https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html](https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html)
 - versión minimificada:
-    https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html
+    [https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html](https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html)
 ~~~~
