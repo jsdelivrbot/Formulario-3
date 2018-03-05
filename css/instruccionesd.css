@@ -63,6 +63,7 @@ h2{
     margin: 0 1vw 0 1vw;
     border: 4px blue solid;
 	background-color: #3681d7;
+	cursor: pointer;
 }
 #lista_menu li:hover:not(#lista_menu){
 	background-color: #C97E28;
