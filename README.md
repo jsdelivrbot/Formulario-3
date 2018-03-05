@@ -75,7 +75,7 @@ Práctica final segunda evaluación. Formulario. Integrando HTML + CCS + JS + JS
 # Resultado final del proyecto 4 de Lenguaje de marcas.
 ~~~~
 - versión indentada:
-	[https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html](https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html)
+    https://cdn.rawgit.com/davidgm17/Formulario/af87a4b7/formulario.html
 - versión minimificada:
-    [https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html](https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html)
+    https://cdn.rawgit.com/davidgm17/Formulario/minimificada/formulario.html
 ~~~~
