@@ -1,4 +1,4 @@
-/* https://cdn.rawgit.com/davidgm17/Formulario/7a1decb6/json/formulario.json */
+/* https://cdn.jsdelivr.net/gh/davidgm17/Formulario@7a1decb6/json/formulario.json */
 
 
 /* variables globales utilizadas*/
@@ -37,7 +37,7 @@ window.onload = function(){
 		reestablecer();
 	}
 	/* fichero json que está en el servidor rawgit*/
-	var url = "https://cdn.rawgit.com/davidgm17/Formulario/7a1decb6/json/formulario.json";
+	var url = "https://cdn.jsdelivr.net/gh/davidgm17/Formulario@7a1decb6/json/formulario.json";
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
